@@ -8,6 +8,7 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
+	"time"
 
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
@@ -30,6 +31,7 @@ func main() {
 		port = os.Getenv("PORT")
 	}
 
+	time.Sleep(time.Minute)
 	listener, err := net.Listen("tcp", ":"+port)
 	if err != nil {
 		panic(err)
