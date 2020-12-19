@@ -2,6 +2,6 @@
   "name": "Sample Go Martini",
   "description": "Sample web application using the Go framework Martini",
   "logo": "https://scalingo.com/logo.svg",
-  "repository": "https://github.com/Scalingo/sample-go-martini",
+  "repository": "https://github.com/pmongou/sample-go-martini",
   "website": "https://scalingo.com"
 }
